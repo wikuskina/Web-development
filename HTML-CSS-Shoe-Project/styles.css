@@ -1,0 +1,98 @@
+/*Border around the page*/
+
+.container-main {
+  width: 820px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 3px black solid;
+}
+
+/*Header style*/
+.main-header {
+  text-transform: uppercase;
+  text-align: center;
+  background-color: rgba(232, 229, 229, 0.639);
+  font-size: 14px;
+  padding: 5px 17px;
+}
+
+.image-main {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+}
+
+/*Free shipping info style*/
+.free-shipping {
+  text-transform: uppercase;
+  color: rgb(107, 103, 103);
+  font-size: 11px;
+  text-align: center;
+}
+
+.item-price {
+  text-align: center;
+}
+
+.item-info,
+.web-link-to-main,
+.h3-padding {
+  padding-left: 10px;
+  margin-bottom: 15px;
+}
+
+/*Link to main page styles, combining those that are the same*/
+.web-link-to-main:link,
+.web-link-to-main:visited {
+  color: blue;
+}
+.web-link-to-main:hover {
+  color: blueviolet;
+  text-decoration: none;
+}
+.web-link-to-main:active {
+  color: aqua;
+}
+
+/*Item description style: removing bullet points*/
+.item-description {
+  list-style: square;
+}
+
+/*Cart button style*/
+.cart-button {
+  background-color: black;
+  color: white;
+  border-top: 3px black solid;
+  width: 100%;
+  padding: 10px;
+  text-transform: uppercase;
+  cursor: pointer; /*when cursos is pointed at the button it displays a hand pointing at it*/
+}
+
+.color {
+  background-color: #000;
+  height: 22px;
+  width: 22px;
+  display: inline-block;
+  margin: 10px;
+}
+
+.color-blue {
+  background-color: blue;
+  height: 22px;
+  width: 22px;
+}
+
+.color-red {
+  background-color: red;
+  height: 22px;
+  width: 22px;
+}
+
+.color-yellow {
+  background-color: yellow;
+  height: 22px;
+  width: 22px;
+}
